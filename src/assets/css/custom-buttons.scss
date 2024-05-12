@@ -1,0 +1,36 @@
+@import 'custom-variables.module';
+
+/* Adds CSS for Success Button class */
+.success-button {
+	color: white;
+	background-color: $success-color;
+}
+
+//Global PDF export button style
+.pdf-export-button {
+	margin-left: 20px !important;
+	width: 100px;
+	color: white;
+	background-color: #a3071b;
+	border-radius: 24px !important;
+}
+
+//Global PDF export button style
+.excel-export-button {
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+	width: 100px;
+	color: white;
+	background-color: darkgreen;
+	border-radius: 24px !important;
+}
+
+/* Removes Underline style from Links */
+.btn-link {
+	text-decoration: none;
+}
+
+/* Shows Underline style to Links when mouse hovered on it */
+.btn-link:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,37 @@
+.custom-flex-center {
+	display: flex;
+	align-items: center;
+}
+
+.custom-flex-justify-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.custom-flex-justify-left {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.custom-flex-justify-right {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+/* Adds 10px margin on top of each row */
+.customRowMarginTop {
+	margin-top: 15px;
+}
+
+/* Adds 25px margin on top of each Paper element */
+.customPaperMarginTop {
+	margin-top: 25px;
+}
+
+/* Adds 30px margin on top of each Paper element */
+.customIconStyle {
+	margin-right: 5px;
+}

@@ -1,0 +1,22 @@
+/* Define global variables */
+
+$primary-color: #153d77;
+$secondary-color: #607d8b;
+$success-color: #198754;
+$error-color: #ff1744;
+$white-color: #fff;
+$background-color: #dedede;
+$pdf-color: #f40f02;
+$word-document-color: #2b579a;
+
+/* Export the variables so that they can be used in the app */
+:export {
+	primaryColor: $primary-color;
+	secondaryColor: $secondary-color;
+	successColor: $success-color;
+	errorColor: $error-color;
+	whiteColor: $white-color;
+	backgroundColor: $background-color;
+	pdfDocumentColor: $pdf-color;
+	wordDocumentColor: $word-document-color;
+}

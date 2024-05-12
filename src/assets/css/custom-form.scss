@@ -1,0 +1,36 @@
+// Large devices
+@media (min-width: 768px) {
+	.custom-margin-padding {
+		padding: 2px;
+		margin: 0;
+	}
+
+	.custom-label {
+		text-align: right;
+		justify-content: flex-end;
+		font-weight: bold;
+	}
+
+	.custom-data {
+		padding-left: 0;
+		align-items: flex-end;
+		display: flex;
+	}
+}
+
+// Small and Medium devices (tablets, 768px and below)
+@media (max-width: 768px) {
+	.custom-margin-padding {
+		padding: 0;
+		margin-bottom: 5px;
+	}
+	.custom-label {
+		font-size: 16px;
+		text-align: left;
+		justify-content: flex-start;
+		font-weight: bold;
+	}
+	.custom-data {
+		padding-left: 0;
+	}
+}
